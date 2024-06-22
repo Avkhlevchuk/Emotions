@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292C8F702BC2E4B4004E12D5 /* MainScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C8F6F2BC2E4B4004E12D5 /* MainScreenTableViewController.swift */; };
+		293541392BB89AAB002B26C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 293541382BB89AAB002B26C7 /* GoogleService-Info.plist */; };
+		2949E9CA2BB85400004E4633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E9C92BB85400004E4633 /* AppDelegate.swift */; };
+		2949E9CC2BB85400004E4633 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E9CB2BB85400004E4633 /* SceneDelegate.swift */; };
+		2949E9CE2BB85400004E4633 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E9CD2BB85400004E4633 /* WelcomeViewController.swift */; };
+		2949E9D12BB85400004E4633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949E9CF2BB85400004E4633 /* Main.storyboard */; };
+		2949E9D42BB85400004E4633 /* Emotions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2949E9D22BB85400004E4633 /* Emotions.xcdatamodeld */; };
+		2949E9D62BB85401004E4633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2949E9D52BB85401004E4633 /* Assets.xcassets */; };
+		2949E9D92BB85401004E4633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2949E9D72BB85401004E4633 /* LaunchScreen.storyboard */; };
+		299368362BB8C2AB000EEFFC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299368352BB8C2AB000EEFFC /* SignUpViewController.swift */; };
+		2993683A2BB9AF02000EEFFC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299368392BB9AF02000EEFFC /* MainScreenViewController.swift */; };
+		2993683C2BB9C8A2000EEFFC /* HowYouFeelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993683B2BB9C8A2000EEFFC /* HowYouFeelViewController.swift */; };
+		2993683E2BB9CC81000EEFFC /* EmotionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993683D2BB9CC81000EEFFC /* EmotionsManager.swift */; };
+		34587B940E0FE88367A4C628 /* Pods_Emotions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1675FDDAE2930C4E481DBD0C /* Pods_Emotions.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1675FDDAE2930C4E481DBD0C /* Pods_Emotions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emotions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D34EE776E74B024B65DFED3 /* Pods-Emotions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emotions.release.xcconfig"; path = "Target Support Files/Pods-Emotions/Pods-Emotions.release.xcconfig"; sourceTree = "<group>"; };
+		292C8F6F2BC2E4B4004E12D5 /* MainScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenTableViewController.swift; sourceTree = "<group>"; };
+		293541382BB89AAB002B26C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2949E9C62BB85400004E4633 /* Emotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2949E9C92BB85400004E4633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2949E9CB2BB85400004E4633 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2949E9CD2BB85400004E4633 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2949E9D02BB85400004E4633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2949E9D32BB85400004E4633 /* Emotions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emotions.xcdatamodel; sourceTree = "<group>"; };
+		2949E9D52BB85401004E4633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2949E9D82BB85401004E4633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2949E9DA2BB85401004E4633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		299368352BB8C2AB000EEFFC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		299368392BB9AF02000EEFFC /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		2993683B2BB9C8A2000EEFFC /* HowYouFeelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowYouFeelViewController.swift; sourceTree = "<group>"; };
+		2993683D2BB9CC81000EEFFC /* EmotionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsManager.swift; sourceTree = "<group>"; };
+		3F4F9A418D78F2B186EB6191 /* Pods-Emotions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emotions.debug.xcconfig"; path = "Target Support Files/Pods-Emotions/Pods-Emotions.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2949E9C32BB85400004E4633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34587B940E0FE88367A4C628 /* Pods_Emotions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290ADF7A2BB8A37900153D28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2949E9CF2BB85400004E4633 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		290ADF7B2BB8A38C00153D28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2949E9CD2BB85400004E4633 /* WelcomeViewController.swift */,
+				299368352BB8C2AB000EEFFC /* SignUpViewController.swift */,
+				299368392BB9AF02000EEFFC /* MainScreenViewController.swift */,
+				2993683B2BB9C8A2000EEFFC /* HowYouFeelViewController.swift */,
+				292C8F6F2BC2E4B4004E12D5 /* MainScreenTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		290ADF7C2BB8A3A000153D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2993683D2BB9CC81000EEFFC /* EmotionsManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2949E9BD2BB85400004E4633 = {
+			isa = PBXGroup;
+			children = (
+				2949E9C82BB85400004E4633 /* Emotions */,
+				2949E9C72BB85400004E4633 /* Products */,
+				70D0E7EA510C074EF22D6A0C /* Pods */,
+				CA297B2E6DD01C6B78633508 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2949E9C72BB85400004E4633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2949E9C62BB85400004E4633 /* Emotions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2949E9C82BB85400004E4633 /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				2949E9C92BB85400004E4633 /* AppDelegate.swift */,
+				2949E9CB2BB85400004E4633 /* SceneDelegate.swift */,
+				290ADF7C2BB8A3A000153D28 /* Model */,
+				290ADF7A2BB8A37900153D28 /* Views */,
+				290ADF7B2BB8A38C00153D28 /* Controllers */,
+				2949E9D52BB85401004E4633 /* Assets.xcassets */,
+				2949E9D72BB85401004E4633 /* LaunchScreen.storyboard */,
+				2949E9DA2BB85401004E4633 /* Info.plist */,
+				2949E9D22BB85400004E4633 /* Emotions.xcdatamodeld */,
+				293541382BB89AAB002B26C7 /* GoogleService-Info.plist */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		70D0E7EA510C074EF22D6A0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F9A418D78F2B186EB6191 /* Pods-Emotions.debug.xcconfig */,
+				1D34EE776E74B024B65DFED3 /* Pods-Emotions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA297B2E6DD01C6B78633508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1675FDDAE2930C4E481DBD0C /* Pods_Emotions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2949E9C52BB85400004E4633 /* Emotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2949E9DD2BB85401004E4633 /* Build configuration list for PBXNativeTarget "Emotions" */;
+			buildPhases = (
+				C63EF05624B7948ADA5D5A88 /* [CP] Check Pods Manifest.lock */,
+				2949E9C22BB85400004E4633 /* Sources */,
+				2949E9C32BB85400004E4633 /* Frameworks */,
+				2949E9C42BB85400004E4633 /* Resources */,
+				3524B87624942E8561C7B7EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotions;
+			productName = Emotions;
+			productReference = 2949E9C62BB85400004E4633 /* Emotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2949E9BE2BB85400004E4633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2949E9C52BB85400004E4633 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2949E9C12BB85400004E4633 /* Build configuration list for PBXProject "Emotions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2949E9BD2BB85400004E4633;
+			productRefGroup = 2949E9C72BB85400004E4633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2949E9C52BB85400004E4633 /* Emotions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2949E9C42BB85400004E4633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2949E9D92BB85401004E4633 /* LaunchScreen.storyboard in Resources */,
+				293541392BB89AAB002B26C7 /* GoogleService-Info.plist in Resources */,
+				2949E9D62BB85401004E4633 /* Assets.xcassets in Resources */,
+				2949E9D12BB85400004E4633 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3524B87624942E8561C7B7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emotions/Pods-Emotions-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emotions/Pods-Emotions-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emotions/Pods-Emotions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63EF05624B7948ADA5D5A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emotions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2949E9C22BB85400004E4633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2949E9CE2BB85400004E4633 /* WelcomeViewController.swift in Sources */,
+				2993683E2BB9CC81000EEFFC /* EmotionsManager.swift in Sources */,
+				2949E9CA2BB85400004E4633 /* AppDelegate.swift in Sources */,
+				2993683C2BB9C8A2000EEFFC /* HowYouFeelViewController.swift in Sources */,
+				2949E9CC2BB85400004E4633 /* SceneDelegate.swift in Sources */,
+				2949E9D42BB85400004E4633 /* Emotions.xcdatamodeld in Sources */,
+				292C8F702BC2E4B4004E12D5 /* MainScreenTableViewController.swift in Sources */,
+				299368362BB8C2AB000EEFFC /* SignUpViewController.swift in Sources */,
+				2993683A2BB9AF02000EEFFC /* MainScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2949E9CF2BB85400004E4633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2949E9D02BB85400004E4633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2949E9D72BB85401004E4633 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2949E9D82BB85401004E4633 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2949E9DB2BB85401004E4633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2949E9DC2BB85401004E4633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2949E9DE2BB85401004E4633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4F9A418D78F2B186EB6191 /* Pods-Emotions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C374ATRAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avkhlevchuk.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2949E9DF2BB85401004E4633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D34EE776E74B024B65DFED3 /* Pods-Emotions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C374ATRAL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avkhlevchuk.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2949E9C12BB85400004E4633 /* Build configuration list for PBXProject "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2949E9DB2BB85401004E4633 /* Debug */,
+				2949E9DC2BB85401004E4633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2949E9DD2BB85401004E4633 /* Build configuration list for PBXNativeTarget "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2949E9DE2BB85401004E4633 /* Debug */,
+				2949E9DF2BB85401004E4633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2949E9D22BB85400004E4633 /* Emotions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2949E9D32BB85400004E4633 /* Emotions.xcdatamodel */,
+			);
+			currentVersion = 2949E9D32BB85400004E4633 /* Emotions.xcdatamodel */;
+			path = Emotions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2949E9BE2BB85400004E4633 /* Project object */;
+}
